@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --green: #6AAE55;
+    --brown: #5B4A58;
+    --brown-o: #6D5B6A;
+    --white: #FFFFFF;
+    --grey: #828282;
+}
+body{
+    font-family: 'Nunito', normal;
+}
+.container{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    font-family: 'Nunito', normal;
+}

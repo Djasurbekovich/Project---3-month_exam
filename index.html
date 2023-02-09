@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flawka_vl</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container nav__box">
+                <div class="nav__box1">
+                    <a class="nav__link" href="#">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>г. Владивосток, </span> ул. Пушкинская, 17 А
+                    </a>
+                </div>
+                <div class="nav__box2">
+                    <p class="nav__text">WhatsApp</p>
+                    <div class="nav__tels">
+                        <i class="fa-solid fa-phone"></i>
+                        <a class="nav__link-tel" href="tel: + 7 808 353 53 35">
+                            + 7 808 353 53 35
+                        </a>
+                        <a class="nav__link-tel" href="tel: + 7 888 888 88 88">
+                            + 7 888 888 88 88
+                        </a>
+                    </div>
+                </div>
+                <div class="nav__box3">
+                    <button class="nav__btn">
+                        <i class="fa-brands fa-shopify"></i>
+                        <p class="nav__price">
+                            150 000 руб.
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <div class="container hero__box">
+                <ul class="hero__list">
+                    <li class="hero__item">
+                        <a class="hero__link" href="#">
+                            Каталог
+                        </a>
+                    </li>
+                    <li class="hero__item">
+                        <a class="hero__link" href="#">
+                            Скидки
+                        </a>
+                    </li>
+                    <li class="hero__item">
+                        <a class="hero__link" href="#">
+                            Отзывы
+                        </a>
+                    </li>
+                    <li class="hero__item">
+                        <a class="hero__link" href="#">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+                <div class="hero__menu">
+                    <i class="fa-solid fa-x"></i>
+                    <select name="menu" id="menu">
+                        <option class="option" value="menu">
+                            Меню
+                        </option>
+                        <option class="option" value="menu">
+                            Каталог
+                        </option>
+                        <option class="option" value="menu">
+                            Скидки
+                        </option>
+                        <option class="option" value="menu">
+                            Отзывы
+                        </option>
+                        <option class="option" value="menu">
+                            Контакты
+                        </option>
+                    </select>
+                </div>
+                <a href="#">
+                    <img src="./imgs/Лого.svg" alt="Logo">
+                </a>
+                <select name="text" id="select">
+                    <option value="client">
+                        Информация для клиента
+                    </option>
+                </select>
+                <button class="hero__btn">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <p class="hero__text">Мои заказы</p>
+                </button>
+                <button class="hero__btn-er">
+                    <p class="hero__text-rer">Руб.</p>
+                    <p class="hero__text-der">Дол.</p>
+                </button>
+            </div>
+        </div>
+
+        <!-- <div class="modal"></div> -->
+    </header>
+
+    <main>
+        <section class="sect">
+            <div class="container">
+                <div class="sect__pages">
+                    <a class="sect__link-pg" href="#">
+                        Главная  >  Карточка товара
+                    </a>
+                </div>
+                <div class="sect__box">
+                    <div class="sect__left">
+                        <img src="./imgs/Group 24.svg" alt="Image">
+                        <div class="sect__imgs">
+                            <img src="./imgs/Rectangle 6.2.svg" alt="Image">
+                            <img src="./imgs/Rectangle 19.svg" alt="Image">
+                            <img src="./imgs/Rectangle 19.1.svg" alt="Image">
+                            <img src="./imgs/Rectangle 19.2.svg" alt="Image">
+                            <img src="./imgs/Rectangle 19.3.svg" alt="Image">
+                        </div>
+                    </div>
+                    <div class="sect__right">
+                        <h2 class="sect__title">
+                            Букет из разноцветных роз
+                        </h2>
+                        <h3 class="sect__title2">
+                            Размер:
+                        </h3>
+                        <ul class="sect__list">
+                            <li class="sect__item">
+                                <div class="sect__price">
+                                    <h4 class="sect__title3">
+                                        Малый
+                                    </h4>
+                                    <p class="sect__text">
+                                        1 290 руб.
+                                    </p>
+                                </div>
+                                <input type="radio" name="radio" id="input">
+                            </li>
+                            <li class="sect__item">
+                                <div class="sect__price">
+                                    <h4 class="sect__title3">
+                                        Средний
+                                    </h4>
+                                    <p class="sect__text">
+                                        1 550 руб.
+                                    </p>
+                                </div>
+                                <input type="radio" name="radio" id="input">
+                            </li>
+                            <li class="sect__item">
+                                <div class="sect__price">
+                                    <h4 class="sect__title3">
+                                        Большой
+                                    </h4>
+                                    <p class="sect__text">
+                                        1 800 руб.
+                                    </p>
+                                </div>
+                                <input type="radio" name="radio" id="input">
+                            </li>
+                        </ul>
+                        <div class="sect__ings">
+                            <button class="sect__btn">
+                                Состав
+                            </button>
+                            <button class="sect__btn2">
+                                Доставка и оплата
+                            </button>
+                            <ul class="sect__list2">
+                                <li class="sect__item2">
+                                    <p class="sect__text2">
+                                        Гербера Оранжевая  —  11 шт.
+                                    </p>
+                                </li>
+                                <li class="sect__item2">
+                                    <p class="sect__text2">
+                                        Гвоздика однобутонная розовая  —  7 шт.
+                                    </p>
+                                </li>
+                                <li class="sect__item2">
+                                    <p class="sect__text2">
+                                        Хризантема кустовая Филин Грин  —  5 шт.
+                                    </p>
+                                </li>
+                                <li class="sect__item2">
+                                    <p class="sect__text2">
+                                        Роза Шангри Ла  —  29 шт.
+                                    </p>
+                                </li>
+                                <li class="sect__item2">
+                                    <p class="sect__text2">
+                                        Роза Пенни Лейн  —  29 шт.
+                                    </p>
+                                </li>
+                                <li class="sect__item2">
+                                    <p class="sect__text2">
+                                        Роза Пенни Лейн  —  29 шт.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sect__box-end">
+                            <div class="sect__count">
+                                <button class="sect__minus">
+                                    -
+                                </button>
+                                <p class="sect__text-pm">
+                                    <span>1</span> шт.
+                                </p>
+                                <button class="sect__plus">
+                                    +
+                                </button>
+                            </div>
+                            <div class="sect__basket">
+                                <div class="sect__sum">
+                                    <span>Сумма:</span>
+                                    <p class="sect__rub">
+                                        100 000 руб.
+                                    </p>
+                                </div>
+                                <button class="sect__btn-b">
+                                    <i class="fa-brands fa-shopify"></i>
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sect2">
+            <div class="container">
+                <h2 class="sect2__title">
+                    <span>Дополнить</span> Заказ
+                </h2>
+
+                <ul class="sect2__list">
+                    <li class="sect2__item">
+                        <div class="sect2__item-l">
+                            <img src="./imgs/list 1.svg" alt="Image">
+                        </div>
+                        <div class="sect2__item-r">
+                            <h3 class="sect2__title2">
+                                Шок. конфеты "Лучшей маме"
+                            </h3>
+                            <p class="sect2__text">
+                                <span class="sect2__span">
+                                    1200
+                                </span> руб.
+                            </p>
+                            <div class="sect2__count">
+                                <button class="sect2__minus">
+                                    -
+                                </button>
+                                <p class="sect2__text-pm">
+                                    <span class="sect2__span">
+                                        1
+                                    </span> шт.
+                                </p>
+                                <button class="sect2__plus">
+                                    +
+                                </button>
+                            </div>
+                            <button id="sect2__btn">
+                                + Добавить
+                            </button>
+                        </div>
+                    </li>
+
+                    <li class="sect2__item">
+                        <div class="sect2__item-l">
+                            <img src="./imgs/list 2.svg" alt="Image">
+                        </div>
+                        <div class="sect2__item-r">
+                            <h3 class="sect2__title2">
+                                Шок. конфеты "Лучшей маме"
+                            </h3>
+                            <p class="sect2__text">
+                                <span class="sect2__span">
+                                    1200
+                                </span> руб.
+                            </p>
+                            <div class="sect2__count">
+                                <button class="sect2__minus">
+                                    -
+                                </button>
+                                <p class="sect2__text-pm">
+                                    <span class="sect2__span">
+                                        1
+                                    </span> шт.
+                                </p>
+                                <button class="sect2__plus">
+                                    +
+                                </button>
+                            </div>
+                            <button id="sect2__btn">
+                                + Добавить
+                            </button>
+                        </div>
+                    </li>
+                    <li class="sect2__item">
+                        <div class="sect2__item-l">
+                            <img src="./imgs/list 3.svg" alt="Image">
+                        </div>
+                        <div class="sect2__item-r">
+                            <h3 class="sect2__title2">
+                                Шок. конфеты "Лучшей маме"
+                            </h3>
+                            <p class="sect2__text">
+                                <span class="sect2__span">
+                                    1200
+                                </span> руб.
+                            </p>
+                            <div class="sect2__count">
+                                <button class="sect2__minus">
+                                    -
+                                </button>
+                                <p class="sect2__text-pm">
+                                    <span class="sect2__span">
+                                        1
+                                    </span> шт.
+                                </p>
+                                <button class="sect2__plus">
+                                    +
+                                </button>
+                            </div>
+                            <button id="sect2__btn">
+                                + Добавить
+                            </button>
+                        </div>
+                    </li>
+                    <li class="sect2__item">
+                        <div class="sect2__item-l">
+                            <img src="./imgs/list 4.svg" alt="Image">
+                        </div>
+                        <div class="sect2__item-r">
+                            <h3 class="sect2__title2">
+                                Шок. конфеты "Лучшей маме"
+                            </h3>
+                            <p class="sect2__text">
+                                <span class="sect2__span">
+                                    1200
+                                </span> руб.
+                            </p>
+                            <div class="sect2__count">
+                                <button class="sect2__minus">
+                                    -
+                                </button>
+                                <p class="sect2__text-pm">
+                                    <span class="sect2__span">
+                                        1
+                                    </span> шт.
+                                </p>
+                                <button class="sect2__plus">
+                                    +
+                                </button>
+                            </div>
+                            <button id="sect2__btn">
+                                + Добавить
+                            </button>
+                        </div>
+                    </li>
+                    <li class="sect2__item">
+                        <div class="sect2__item-l">
+                            <img src="./imgs/list 5.svg" alt="Image">
+                        </div>
+                        <div class="sect2__item-r">
+                            <h3 class="sect2__title2">
+                                Шок. конфеты "Лучшей маме"
+                            </h3>
+                            <p class="sect2__text">
+                                <span class="sect2__span">
+                                    1200
+                                </span> руб.
+                            </p>
+                            <div class="sect2__count">
+                                <button class="sect2__minus">
+                                    -
+                                </button>
+                                <p class="sect2__text-pm">
+                                    <span class="sect2__span">
+                                        1
+                                    </span> шт.
+                                </p>
+                                <button class="sect2__plus">
+                                    +
+                                </button>
+                            </div>
+                            <button id="sect2__btn">
+                                + Добавить
+                            </button>
+                        </div>
+                    </li>
+                    <li class="sect2__item">
+                        <div class="sect2__item-l">
+                            <img src="./imgs/list 6.svg" alt="Image">
+                        </div>
+                        <div class="sect2__item-r">
+                            <h3 class="sect2__title2">
+                                Шок. конфеты "Лучшей маме"
+                            </h3>
+                            <p class="sect2__text">
+                                <span class="sect2__span">
+                                    1200
+                                </span> руб.
+                            </p>
+                            <div class="sect2__count">
+                                <button class="sect2__minus">
+                                    -
+                                </button>
+                                <p class="sect2__text-pm">
+                                    <span class="sect2__span">
+                                        1
+                                    </span> шт.
+                                </p>
+                                <button class="sect2__plus">
+                                    +
+                                </button>
+                            </div>
+                            <button id="sect2__btn">
+                                + Добавить
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="sect2__pages">
+                    <button class="sect2__page">
+                        1
+                    </button>
+                    <button class="sect2__page">
+                        2
+                    </button>
+                    <button class="sect2__page">
+                        3
+                    </button>
+                    <button class="sect2__page">
+                        4
+                    </button>
+                    <button class="sect2__page">
+                        5
+                    </button>
+                    <button class="sect2__page">
+                        6
+                    </button>
+                </div>
+                <div class="sect2__btn-end">
+                    <button class="sect2__btn2">
+                        Оформить заказ
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__start">
+                <div class="container">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                                Каталог
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                                Скидки
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                                Отзывы
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                                Контакты
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <select name="select" id="footer__select">
+                                <option class="option" value="option">
+                                    Информация для клиента
+                                </option>
+                            </select>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                                Оферта
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="footer__boxes">
+                <div class="container footer__end">
+                    <ul class="footer__lists">
+                        <li class="footer__items">
+                            <h4 class="footer__title">
+                                Контактная информация
+                            </h4>
+                        </li>
+                        <li class="footer__items">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <a class="footer__link-l" href="#">
+                                г. Владивосток, ул.<br>Пушкинская, 17
+                            </a>
+                        </li>
+                        <li class="footer__items">
+                            <i class="fa-solid fa-phone"></i>
+                            <a class="footer__link-l" href="tel: + 7 888 888 88 88">
+                                + 7 888 888 88 88
+                            </a>
+                        </li>
+                        <li class="footer__items">
+                            <i class="fa-solid fa-phone"></i>
+                            <a class="footer__link-l" href="tel: + 7 888 888 88 88">
+                                + 7 888 888 88 88
+                            </a>
+                        </li>
+                        <li class="footer__items">
+                            <i class="fa-regular fa-clock"> </i>
+                            <a class="footer__link-l" href="#">
+                                Режим работы:<br>Пн-Сб  с 8:00  до 22:00
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer__lists">
+                        <li class="footer__items2"> 
+                            <h4 class="footer__title">
+                                Для посетителей
+                            </h4>
+                        </li>
+                        <li class="footer__items2">
+                            <a class="footer__link2" href="#">
+                                Оформление заказа
+                            </a>
+                        </li>
+                        <li class="footer__items2">
+                            <a class="footer__link2" href="#">
+                                Вопросы и ответы
+                            </a>
+                        </li>
+                        <li class="footer__items2">
+                            <a class="footer__link2" href="#">
+                                Изменение или отмена заказа
+                            </a>
+                        </li>
+                        <li class="footer__items2">
+                            <a class="footer__link2" href="#">
+                                Способы доставки и оплаты
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__box">
+                        <h4 class="footer__title">
+                            Возникли вопросы? Свяжитесь с нами
+                        </h4>
+                        <form class="footer__form">
+                            <div class="footer__form-boxes">
+                                <div class="footer__form-box">
+                                    <p class="footer__text">
+                                        Ваше имя
+                                    </p>
+                                    <input type="text" name="" class="footer__input">
+                                </div>
+                                <div class="footer__form-box">
+                                    <p class="footer__text">
+                                        Моб. номер
+                                    </p>
+                                    <input type="number" name="" class="footer__input">
+                                </div>
+                            </div>
+                            <div class="footer__form-end">
+                                <input type="text" name="" class="footer__input-g">
+                                <br>
+                                <button class="footer__btn">
+                                    Отправить
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__box-end">
+                <p class="footer__text-end">
+                    © 2019 Цветочная лавка.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

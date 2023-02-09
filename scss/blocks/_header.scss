@@ -1,0 +1,235 @@
+.nav{
+    background-color: var(--brown);
+    margin-bottom: 11px;
+
+    &__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__link{
+        font-size: 16px;    
+        line-height: 22px;
+        color: var(--white);
+    }
+    &__link:hover{
+        color: var(--green);
+    }
+    &__link:hover span{
+        color: var(--white);
+    }
+    .fa-location-dot{
+        color: var(--white);
+        padding-right: 5px;
+    }
+    span{
+        font-weight: bolder;
+        color: var(--green);
+    }
+    &__box2{
+        background-color: var(--brown-o);
+        padding: 5px 20px;
+    }
+    &__text{
+        font-size: 10px;
+        line-height: 13px;
+        text-transform: uppercase;
+        color: var(--white);
+        margin-left: 30px;
+    }
+    .fa-phone{
+        color: var(--green);
+        padding-right: 5px;
+    }
+    &__link-tel{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--white);
+    }
+    &__link-tel + &__link-tel{
+        padding-left: 13px;
+    }
+    &__link-tel:hover{
+        color: var(--green);
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        border: none;
+        color: var(--white);
+        background: initial;
+        gap: 10px;
+    }
+    &__btn:hover{
+        cursor: pointer;
+    }
+    &__btn:hover &__price{
+        color: var(--green);
+    }
+    .fa-shopify{
+        font-size: 20px;
+    }
+    &__price{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 98%;
+        transform: rotate(-0.22deg);
+    }
+}
+.hero{
+    margin-bottom: 12px;
+
+    &__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        gap: 53px;
+    }
+    &__link{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: var(--brown);
+    }
+    &__link:hover{
+        opacity: 0.5;
+    }
+    &__menu{
+        display: none;
+    }
+    .fa-x{
+        color: var(--brown);
+    }
+    #menu{
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: var(--brown);
+        transform: rotate(-0.22deg);
+        border: none;
+    }
+    #select{
+        font-family: 'Nunito', normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: var(--brown);
+        border: none;
+    }
+    #select:hover{
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        border: none;
+        color: var(--brown);
+        background-color: initial;
+        gap: 10px;
+    }
+    &__btn:hover{
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .fa-circle-user{
+        font-size: 25px;
+    }
+    &__text{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: var(--brown);
+        transform: rotate(-0.22deg);
+    }
+    &__btn-er{
+        border: none;
+        color: var(--brown);
+        background-color: initial;
+    }
+    &__btn-er:hover{
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    &__text-rer{
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: var(--brown);
+        transform: rotate(-0.22deg);
+    }
+    &__text-der{
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: var(--brown);
+        transform: rotate(-0.22deg);
+    }
+}
+// .modal{
+//     position: fixed;
+//     left: 12%;
+//     width: 1150px;
+//     height: 400px;
+//     border: 1px solid;
+//     z-index: -10;
+//     visibility: hidden;
+//     margin: 0 auto;
+// }
+// .modal__btn{
+//     z-index: 10;
+//     visibility: visible;
+//     background-color: var(--white);
+// }
+
+
+
+@media screen and (max-width: 400px) {
+    .container{
+        width: 100%;
+    }
+    .nav__box1{
+        display: none;
+    }
+    .nav__box2{
+        background-color: var(--brown);
+        border-right: 1px solid var(--grey);
+        padding: 5px 25px 5px 0;
+    }
+    .nav__text{
+        margin-left: 39px;
+    }
+    .nav__link-tel:nth-child(2){
+        display: none;
+    }
+    .hero__list{
+        display: none;
+    }
+    .hero__menu{
+        display: block;
+    }
+    .option{
+        font-size: 7px;
+        font-weight: bold;
+    }
+    #select{
+        display: none;
+    }
+    .hero__btn{
+        display: none;
+    }
+    .hero__btn-er{
+        display: flex;
+        gap: 10px;
+    }
+}

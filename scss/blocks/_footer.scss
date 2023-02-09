@@ -1,0 +1,211 @@
+.footer{
+    
+    &__start{
+        background-color: #746471;
+        padding: 30px 0 35px;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__link{
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--white);
+    }
+    &__link:hover{
+        opacity: 0.5;
+    }
+    #footer__select{
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--white);
+        transform: rotate(-0.22deg);
+        background-color: initial;
+        border: none;
+    }
+    #footer__select:hover{
+        opacity: 0.5;
+    }
+    &__boxes{
+        background-color: var(--brown);
+        border-top: 2px solid #A29BB4;
+        border-bottom: 2px solid #A29BB4;
+        padding: 28px 0 34px;
+    }
+    &__end{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__items{
+        display: flex;
+        align-items: center;
+    }
+    &__items + &__items{
+        margin-top: 15px;
+        gap: 11px;
+    }
+    &__title{
+        font-family: 'Roboto', normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: var(--green);
+        margin-bottom: 5px;
+    }
+    i{
+        color: var(--white);
+    }
+    .fa-location-dot{
+        margin-right: 3px;
+    }
+    &__link-l{
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--white);
+    }
+    &__link-l:hover{
+        opacity: 0.5;
+    }
+    &__items2 + &__items2{
+        margin-top: 17px;
+    }
+    &__link2{
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--white);
+        opacity: 0.8;
+    }
+    &__link2:hover{
+        opacity: 0.4;
+    }
+    &__form-boxes{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__form-end{
+        text-align: end;
+    }
+    &__text{
+        font-size: 14px;
+        line-height: 19px;
+        color: #F2F2F2;
+        margin: 14px 0 5px;
+    }
+    &__input{
+        width: 218px;
+        height: 33px;
+        font-weight: bold;
+        color: var(--green);
+        border: none;
+        border-radius: 2px;
+        padding-left: 10px;
+    }
+    &__input:hover{
+        border: 3px solid var(--green);
+    }
+    &__input-g{
+        width: 446px;
+        height: 75px;
+        font-weight: bold;
+        color: var(--green);
+        border: none;
+        border-radius: 2px;
+        padding-left: 10px;
+        margin: 10px 0;
+    }
+    &__input-g:hover{
+        border: 3px solid var(--green);
+    }
+    &__btn{
+        width: 222px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--white);
+        background-color: var(--green);
+        border: none;
+        border-radius: 5px;
+    }
+    &__btn:hover{
+        background-color: limegreen;
+        cursor: pointer;
+    }
+    &__btn:active{
+        background-color: #BDBDBD;
+    }
+    &__box-end{
+        background-color: var(--brown);
+        padding: 23px 0;
+    }
+    &__text-end{
+        font-size: 16px;
+        line-height: 100%;
+        text-align: center;
+        color: #A69BA4;
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .container{
+        width: 100%;
+    }
+    .footer__list{
+        display: block;
+        text-align: center;
+        gap: 14px;
+    }
+    .footer__item + .footer__item{
+        margin-top: 14px;
+    }
+    .footer__item:nth-child(5){
+        display: flex;
+        justify-content: center;
+    }
+    .footer__link{
+        font-size: 18px;
+    }
+    #footer__select{
+        display: block;
+        font-size: 18px;
+    }
+    .footer__end{
+        display: block;
+    }
+    .footer__title{
+        width: 250px;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .footer__link-l{
+        font-size: 18px;
+    }
+    .footer__link2{
+        font-size: 18px;
+    }
+    .footer__form-boxes{
+        display: block;
+    }
+    .footer__text{
+        font-size: 16px;
+    }
+    .footer__input{
+        width: 350px;
+        height: 45px;
+    }
+    .footer__input-g{
+        width: 350px;
+        height: 90px;
+    }
+    .footer__btn{
+        width: 350px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
